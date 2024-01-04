@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.picture {
+  display: flex;
+  align-items: center;
+}
+.picture img {
+  width: 400px;
+  border-radius: 20px;
+}
+.pictureReview {
+  display: flex;
+
+  justify-content: space-between;
+}
+.pictureReview img {
+  height: 120px;
+  border-radius: 20px;
+}
+.title {
+  font-size: 25px;
+  word-wrap: break-word;
+}
+
+.data-list {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  width: 1000px;
+  gap: 15px;
+}
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tagsAndLink {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tags {
+  cursor: pointer;
+}
+span:hover {
+  text-decoration: underline;
+}
+.copyLink {
+  cursor: pointer;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  text-align: center;
+  width: 700px;
+  height: 50px;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(62, 171, 235);
+  outline: none;
+  border: none;
+}
+input:focus{
+  
+  border-bottom: 2px solid rgb(62, 171, 235);
+}
+h1 {
+  margin-top: 20px;
+  color: aqua;
+  font-size: 50px;
+  text-align: center;
+}
